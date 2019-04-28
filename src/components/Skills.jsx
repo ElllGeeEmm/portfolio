@@ -8,7 +8,7 @@ const Skills = (props) => (
       {skills.map(skill=>(
         <div className='skill' key={skill.name}>
           <h3 className='skill-name'>{skill.name}</h3>
-          <img src={skill.img} className='skills-img'/>
+          <img src={skill.img} className='skills-img' alt={skill.name}/>
         </div>
       ))}
     </div>
