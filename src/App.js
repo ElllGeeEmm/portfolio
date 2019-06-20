@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Container } from 'semantic-ui-react'
 import './App.css';
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
@@ -8,12 +9,15 @@ import ContactMe from './components/ContactMe'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <Container
+        text
+        className="App"
+      >
         <AboutMe />
         <Skills />
         <Projects />
         <ContactMe />
-      </div>
+      </Container>
     );
   }
 }
