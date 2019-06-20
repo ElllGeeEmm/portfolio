@@ -5,77 +5,6 @@
   transition: 250ms;
 }
 
-.App {
-    font-family: Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    width: 40%;
-    margin: 0 auto;
-}
-
-h1 {
-  overflow-wrap: normal;
-  font-size: 5.2em;
-  margin: .3em 0;
-}
-
-h2 {
-  margin: 1em 0;
-}
-
-p {
-  margin: 1em 0;
-  line-height: 1.4em;
-}
-
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.skill {
-  min-width: 150px;
-}
-
-.skill-name {
-  margin: 1em .5em;
-  text-align: center;
-}
-
-.skills-img {
-  display: block;
-  width: 100%;
-  max-width: 80px;
-  height: auto;
-  margin: .5em auto;
-}
-
-.project {
-  display: flex;
-  margin-bottom: 5em;
-}
-
-.project-img {
-  display: block;
-  width: auto;
-  max-width: 380px;
-  height: auto;
-}
-
-.project-desc {
-  margin: .5em;
-  min-height: 8em;
-}
-
-.gitIcon {
-  bottom: 0;
-  display: block;
-  width: 100%;
-  max-width: 60px;
-  height: auto;
-  right: 0;
-  bottom: 0;
-}
-
 .relative {
   position: relative;
 }
@@ -91,9 +20,9 @@ p {
   position: fixed;
   right: 30%;
   bottom: 5%;
-  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
-  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 3px 10px -2px rgba(0,0,0,0.5);
+  -moz-box-shadow: 3px 3px 10px -2px rgba(0,0,0,0.5);
+  box-shadow: 3px 3px 10px -2px rgba(0,0,0,0.5);
   line-height: 40px;
   height: 40px;
   width: 120px;
@@ -107,31 +36,24 @@ p {
   right: 50%;
   bottom: 50%;
   transform: translate(50%, 50%);
-  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
-  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 3px 10px -2px rgba(0,0,0,0.5);
+  -moz-box-shadow: 3px 3px 10px -2px rgba(0,0,0,0.5);
+  box-shadow: 3px 3px 10px -2px rgba(0,0,0,0.5);
   line-height: 40px;
   height: 400px;
   width: 310px;
+  overflow: hidden;
 }
 
-.formspree {
-  width: 90%;
-  margin: .5em auto;
-  display: flex;
-  flex-direction: column;
-}
 
-.formspree .input {
-  padding: .5em;
-  margin: .5em 0;
-}
+
 
 .formspree textarea {
   height: 180px;
 }
 
 .modal-background {
+  background-color: rgba(0,0,0, .25);
   z-index: 9;
   position: fixed;
   bottom: 0;
@@ -142,31 +64,12 @@ p {
 
 
 @media only screen and (max-width: 1100px) {
-  .App {
-    width: 60%;
-  }
-  h1 {
-    font-size: 4.2em;
-  }
-  .project {
-    flex-direction: column
-  }
-  .project-img {
-    margin: 0 auto;
-  }
-  .project-container {
-    width: 380px;
-    margin: 0 auto;
-  }
   .contact-me {
     right: 20%;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .App {
-    width: 80%;
-  }
   h1 {
     font-size: 3.2em;
   }
@@ -176,12 +79,6 @@ p {
 }
 
 @media only screen and (max-width: 400px) {
-  .App {
-    width: 94%;
-  }
-  h1 {
-    font-size: 3.2em;
-  }
   .contact-me {
     right: 3%;
   }
