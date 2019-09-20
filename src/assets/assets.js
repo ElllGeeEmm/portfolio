@@ -60,21 +60,36 @@ const skills = [
 const projects = [
   {
     name: 'Snake',
-    description: 'Classic game of snake built in vanilla JS',
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in
+     volutpat magna. Vestibulum interdum convallis venenatis. Nam porta ornare porttitor. 
+     Praesent pretium porttitor elit et tincidunt. Morbi viverra orci vel ex cursus gravida. 
+     Curabitur rhoncus mauris ut sapien maximus, in semper nisi aliquet. Aenean tincidunt 
+     dictum ultrices. Vestibulum viverra ante sodales quam porta aliquam. Curabitur in posuere
+      eros.`,
     img: snakeGame,
     link: `http://tacky-thrill.surge.sh/`,
     github: `https://github.com/ElllGeeEmm/snake`,
   },
   {
     name: 'NY Art Beat',
-    description: 'A react front end built for the NY Art Beat API',
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in
+     volutpat magna. Vestibulum interdum convallis venenatis. Nam porta ornare porttitor. 
+     Praesent pretium porttitor elit et tincidunt. Morbi viverra orci vel ex cursus gravida. 
+     Curabitur rhoncus mauris ut sapien maximus, in semper nisi aliquet. Aenean tincidunt 
+     dictum ultrices. Vestibulum viverra ante sodales quam porta aliquam. Curabitur in posuere
+      eros.`,
     img: artBeat,
     link: `http://ny-art-beat-react.surge.sh/`,
     github: `https://github.com/ElllGeeEmm/ny-art-beat-app`,
   },
   {
     name: 'Band-It',
-    description: 'Full crud app built in React and Express',
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in
+     volutpat magna. Vestibulum interdum convallis venenatis. Nam porta ornare porttitor. 
+     Praesent pretium porttitor elit et tincidunt. Morbi viverra orci vel ex cursus gravida. 
+     Curabitur rhoncus mauris ut sapien maximus, in semper nisi aliquet. Aenean tincidunt 
+     dictum ultrices. Vestibulum viverra ante sodales quam porta aliquam. Curabitur in posuere
+      eros.`,
     img: bandIt,
     link: `http://banditproject.surge.sh/`,
     github: `https://github.com/mikebrown4000/Band-It`,
